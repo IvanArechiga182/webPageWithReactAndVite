@@ -1,0 +1,72 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.inputContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 75%;
+}
+
+.inputContainer label {
+  color: #403e3e;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 0.4em;
+}
+
+.inputContainer input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 1em 0 0.5em 2em;
+  transition: border-color 300ms ease;
+  &:focus {
+    outline: 0;
+    border-bottom: 2px solid #0d71bd;
+  }
+}
+
+form a {
+  text-decoration: none;
+  color: #5b5757cc;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 5px 0 10px 140px;
+  &:hover {
+  }
+}
+
+form button {
+  width: 75%;
+  border-radius: 30px;
+  padding: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  background: #3bf5ff;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 245, 255, 1) 0%,
+    rgba(10, 122, 250, 1) 17%,
+    rgba(170, 66, 194, 1) 65%,
+    rgba(176, 85, 224, 1) 100%
+  );
+  border: none;
+  color: #ffff;
+  font-weight: bold;
+  transition: border-color 300ms ease;
+  &:hover {
+    border: 2px solid black;
+  }
+}
+svg {
+  position: absolute;
+  top: 30px;
+  padding-left: 0.3em;
+}
